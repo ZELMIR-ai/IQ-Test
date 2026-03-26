@@ -112,8 +112,8 @@ function pickAnswer(btn) {
     if (qIndex < QUESTIONS.length) {
       renderQuestion();
     } else {
-      showScreen('screen-captcha');
-      buildCaptcha();
+      showScreen('screen-analysis');
+      runAnalysis();
     }
   }, 350);
 }
